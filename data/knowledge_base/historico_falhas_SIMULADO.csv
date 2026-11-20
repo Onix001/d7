@@ -1,0 +1,51 @@
+id_registro,tag,data,tipo_falha,sintoma,causa_identificada,tempo_reparo_h,peca_trocada,reincidencia,condicao_ambiental,origem
+FSM-SIM-0001,PMV-006,2025-01-14,comunicacao,PMV sem comunicação com o CCO após tempestade,DPS da linha de dados queimado por descarga atmosférica,3.0,DPS de dados,nao,Tempestade com raios,SIMULADO
+FSM-SIM-0002,PMV-003,2025-01-28,exibicao,Linhas de LED apagadas à tarde,Superaquecimento do gabinete – ventilador travado,3.0,ventilador do gabinete,nao,Calor de 36 °C; sol da tarde direto no gabinete,SIMULADO
+FSM-SIM-0003,CFTV-002,2025-02-03,movimento_ptz,Câmera não gira (pan travado),Desgaste da engrenagem do pan,3.0,nenhuma (lubrificação e ajuste),nao,Vento forte,SIMULADO
+FSM-SIM-0004,PMV-003,2025-02-19,exibicao,Painel apaga e volta à tarde,Superaquecimento do gabinete – fonte 24 V desligando por temperatura,3.5,fonte chaveada 24 V,sim,Calor de 35 °C; sol da tarde direto no gabinete,SIMULADO
+FSM-SIM-0005,PMV-006,2025-02-26,comunicacao,PMV sem comunicação com o CCO após tempestade,DPS da linha de dados queimado por descarga atmosférica,3.0,DPS de dados,sim,Tempestade com raios,SIMULADO
+FSM-SIM-0006,CFTV-007,2025-03-12,imagem,Imagem esbranquiçada à noite; de dia normal,Teia de aranha na cúpula refletindo o IR,1.5,nenhuma (limpeza da cúpula),nao,Noite úmida; mata ao lado do poste,SIMULADO
+FSM-SIM-0007,CBX-004,2025-04-10,audio,Sem áudio do lado do usuário,Umidade no microfone após chuva,2.0,microfone,nao,Chuva forte,SIMULADO
+FSM-SIM-0008,CFTV-002,2025-05-18,movimento_ptz,Pan travando entre presets,Desgaste da engrenagem do pan,4.0,engrenagem do pan,sim,Vento forte,SIMULADO
+FSM-SIM-0009,CFTV-011,2025-06-02,movimento_ptz,Preset fora de posição,Perda de calibração do PTZ,1.0,nenhuma (recalibração dos presets),nao,Tempo seco,SIMULADO
+FSM-SIM-0010,CFTV-007,2025-06-20,imagem,Sem imagem útil à noite; de dia normal,Teia de aranha na cúpula refletindo o IR,1.5,nenhuma (limpeza da cúpula),sim,Noite úmida; mata ao lado do poste,SIMULADO
+FSM-SIM-0011,CFTV-001,2025-07-08,comunicacao,Sem vídeo no CCO,Fibra óptica rompida por obra no acostamento,4.0,emenda de fibra,nao,Obra no acostamento,SIMULADO
+FSM-SIM-0012,CBX-004,2025-07-22,alimentacao,Callbox desligado de madrugada,Bateria degradada (não segura carga),2.5,bateria 12 V,nao,Inverno; dias nublados,SIMULADO
+FSM-SIM-0013,PMV-002,2025-08-14,comunicacao,Mensagem não atualiza pelo CCO,Modem 4G travado,2.0,modem 4G,nao,Tempo seco,SIMULADO
+FSM-SIM-0014,CFTV-002,2025-08-27,imagem,Imagem embaçada o dia todo,Umidade interna e fungo na lente,2.5,nenhuma (limpeza interna e sílica),nao,Umidade alta,SIMULADO
+FSM-SIM-0015,CBX-004,2025-09-05,audio,Chiado e áudio cortando,Umidade no microfone – vedação ressecada,2.5,microfone e vedação,sim,Chuva,SIMULADO
+FSM-SIM-0016,PMV-003,2025-09-15,exibicao,Pixels apagados em um módulo,Módulo de LED queimado,2.5,módulo de LED,nao,Tempo seco,SIMULADO
+FSM-SIM-0017,CFTV-006,2025-09-30,dano_fisico,Carcaça amassada e câmera fora de posição,Colisão de caminhão no poste,6.0,carcaça e suporte da câmera,nao,Acidente na via,SIMULADO
+FSM-SIM-0018,CFTV-007,2025-10-03,imagem,Perda de imagem noturna intermitente,Teia de aranha e insetos atraídos pelo IR,2.0,nenhuma (limpeza da cúpula),sim,Noite quente; muitos insetos,SIMULADO
+FSM-SIM-0019,PMV-007,2025-10-11,exibicao,Brilho fraco durante o dia,Sensor de luminosidade com defeito,1.5,sensor de luminosidade,nao,Sol forte,SIMULADO
+FSM-SIM-0020,CFTV-002,2025-10-20,movimento_ptz,Zoom e pan sem resposta,Desgaste do motor do pan,4.5,motor do pan,sim,Frio e chuva,SIMULADO
+FSM-SIM-0021,CFTV-004,2025-11-05,alimentacao,Câmera desligada,Injetor PoE queimado,1.5,injetor PoE,nao,Chuva,SIMULADO
+FSM-SIM-0022,PMV-003,2025-12-08,exibicao,Linhas de LED apagadas no início da tarde,Superaquecimento do gabinete – filtro de ar entupido,2.0,filtro de ar do gabinete,sim,Calor de 35 °C; sol da tarde direto no gabinete,SIMULADO
+FSM-SIM-0023,CFTV-007,2025-12-15,imagem,Imagem esbranquiçada à noite; de dia normal,Teia de aranha na cúpula refletindo o IR,1.5,nenhuma (limpeza e repelente na cúpula),sim,Noite úmida; mata ao lado do poste,SIMULADO
+FSM-SIM-0024,PMV-006,2025-12-20,alimentacao,PMV apagado após tempestade,DPS da alimentação queimado e disjuntor desarmado,3.5,DPS de alimentação,nao,Tempestade com raios,SIMULADO
+FSM-SIM-0025,CBX-007,2025-12-27,comunicacao,Chamada não completa no CCO,Sinal GSM fraco no local,3.0,antena GSM externa,nao,Chuva,SIMULADO
+FSM-SIM-0026,PMV-006,2026-01-09,comunicacao,PMV sem comunicação com o CCO após tempestade,DPS da linha de dados queimado por descarga atmosférica,3.0,DPS de dados,nao,Tempestade com raios,SIMULADO
+FSM-SIM-0027,CBX-004,2026-01-18,audio,Sem áudio do lado do usuário,Umidade no microfone – vedação ressecada,2.0,vedação do microfone,sim,Chuva forte,SIMULADO
+FSM-SIM-0028,PMV-003,2026-01-22,exibicao,Painel apagou por completo às 15 h,Superaquecimento do gabinete – fonte 24 V queimada,4.0,fonte chaveada 24 V,sim,Calor de 37 °C; sol da tarde direto no gabinete,SIMULADO
+FSM-SIM-0029,PMV-006,2026-02-04,comunicacao,PMV sem comunicação com o CCO após tempestade,DPS da linha de dados queimado por descarga atmosférica,3.0,DPS de dados,sim,Tempestade com raios,SIMULADO
+FSM-SIM-0030,PMV-003,2026-02-10,comunicacao,Mensagem não atualiza pelo CCO,Superaquecimento do gabinete – switch do gabinete travado,1.0,nenhuma (reinício do switch),nao,Calor de 34 °C; sol da tarde direto no gabinete,SIMULADO
+FSM-SIM-0031,CFTV-002,2026-02-16,movimento_ptz,Pan travado,Desgaste da engrenagem do pan (peça descontinuada pelo fabricante),5.0,engrenagem do pan (reaproveitada de câmera desativada),sim,Vento forte,SIMULADO
+FSM-SIM-0032,CBX-002,2026-02-21,audio,Sem áudio,Alto-falante danificado por vandalismo,2.0,alto-falante,nao,Vandalismo,SIMULADO
+FSM-SIM-0033,CFTV-007,2026-03-02,imagem,Sem imagem útil à noite; de dia normal,Teia de aranha na cúpula refletindo o IR,1.5,nenhuma (limpeza da cúpula),sim,Noite úmida; mata ao lado do poste,SIMULADO
+FSM-SIM-0034,PMV-006,2026-03-11,exibicao,Metade do painel apagada,Módulos de LED queimados por surto elétrico,4.0,2 módulos de LED,nao,Tempestade com raios,SIMULADO
+FSM-SIM-0035,CBX-004,2026-03-25,alimentacao,Callbox desligado à noite,Painel solar sujo; bateria não carrega,1.5,nenhuma (limpeza do painel solar),nao,Poeira de obra vizinha,SIMULADO
+FSM-SIM-0036,CFTV-003,2026-04-12,imagem,Mancha fixa na imagem,Cúpula riscada,1.5,cúpula,nao,Tempo seco,SIMULADO
+FSM-SIM-0037,PMV-001,2026-04-28,exibicao,Caracteres falhando,Cabo flat do módulo solto,1.5,nenhuma (reconexão do cabo),nao,Vibração do pórtico,SIMULADO
+FSM-SIM-0038,CFTV-009,2026-05-03,comunicacao,Vídeo travando no CCO,Porta do switch de campo com defeito,2.0,switch de campo,nao,Tempo seco,SIMULADO
+FSM-SIM-0039,CFTV-007,2026-05-27,imagem,Reflexo forte e imagem borrada à noite,Teia de aranha na cúpula e umidade na vedação,2.5,vedação da cúpula,sim,Chuva fraca à noite,SIMULADO
+FSM-SIM-0040,CBX-004,2026-06-14,alimentacao,Callbox desligado de madrugada,Bateria degradada (não segura carga),2.5,bateria 12 V,sim,Inverno; dias nublados,SIMULADO
+FSM-SIM-0041,CFTV-002,2026-06-30,movimento_ptz,Câmera parada em uma posição,Placa de controle do PTZ queimada,5.5,placa de controle do PTZ,sim,Descarga atmosférica na região,SIMULADO
+FSM-SIM-0042,CFTV-005,2026-07-19,imagem,Imagem escura à noite,LED infravermelho queimado,2.0,módulo IR,nao,Noite,SIMULADO
+FSM-SIM-0043,CFTV-010,2026-08-11,imagem,Imagem desfocada,Foco desajustado por vibração,1.0,nenhuma (ajuste de foco),nao,Vento forte,SIMULADO
+FSM-SIM-0044,CFTV-007,2026-08-30,imagem,Imagem esbranquiçada à noite; de dia normal,Teia de aranha na cúpula refletindo o IR,1.5,nenhuma (limpeza da cúpula),sim,Noite seca; mata ao lado do poste,SIMULADO
+FSM-SIM-0045,CBX-004,2026-09-09,audio,Áudio cortando durante a chamada,Umidade no microfone após chuva,2.0,microfone,nao,Chuva,SIMULADO
+FSM-SIM-0046,CFTV-002,2026-09-21,comunicacao,Câmera sem vídeo no CCO,Conector RJ45 oxidado,1.5,conector RJ45,nao,Umidade alta,SIMULADO
+FSM-SIM-0047,PMV-005,2026-09-27,alimentacao,Painel apagado,Disjuntor desarmado por curto na tomada de serviço,2.5,tomada de serviço,nao,Chuva,SIMULADO
+FSM-SIM-0048,CBX-009,2026-10-05,dano_fisico,Callbox derrubado,Colisão de veículo,5.0,pedestal e porta frontal,nao,Acidente na via,SIMULADO
+FSM-SIM-0049,PMV-003,2026-10-14,exibicao,Linhas de LED apagadas à tarde,Superaquecimento do gabinete – ventilador travado,2.5,ventilador do gabinete,nao,Calor de 33 °C; sol da tarde direto no gabinete,SIMULADO
+FSM-SIM-0050,CFTV-007,2026-10-28,imagem,Sem imagem útil à noite; de dia normal,Teia de aranha na cúpula refletindo o IR,1.5,nenhuma (limpeza da cúpula),sim,Noite úmida; mata ao lado do poste,SIMULADO

@@ -1,0 +1,8 @@
+CHALLENGE SPRINT 01 - ENGMAN COPILOT (FIAP x MOTIVA)
+Grupo: CitizenBits - Turma 1CCPR
+Recorte escolhido: A - Diagnostico e Confiabilidade
+Integrantes:
+João Pedro Oliveira da Silva - RM574984 - 1CCPR
+Arthur Salgado - RM576288 - 1CCPR
+Repositorio: [LINK DO REPOSITORIO]
+Fluxograma: está em docs/arquitetura.png no repositório

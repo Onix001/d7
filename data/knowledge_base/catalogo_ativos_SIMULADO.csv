@@ -1,0 +1,31 @@
+tag,tipo_ativo,fabricante,modelo,km,praca_portico,data_instalacao,vida_util_anos,criticidade,origem
+CFTV-001,CFTV,OptiVia Sistemas,OV-PTZ300,3.2,Poste (acostamento),2021-03-15,8,B,SIMULADO
+CFTV-002,CFTV,Horizonte Eletrônica,HZ-PTZ200,12.5,Poste (acostamento),2016-05-10,8,B,SIMULADO
+CFTV-003,CFTV,OptiVia Sistemas,OV-PTZ300,22.0,Praça P1,2022-08-01,8,A,SIMULADO
+CFTV-004,CFTV,Horizonte Eletrônica,HZ-PTZ200,22.3,Praça P1,2017-02-20,8,A,SIMULADO
+CFTV-005,CFTV,OptiVia Sistemas,OV-PTZ300,33.5,Pórtico PT-03,2021-11-05,8,A,SIMULADO
+CFTV-006,CFTV,Horizonte Eletrônica,HZ-PTZ200,41.0,Poste (acostamento),2018-06-12,8,B,SIMULADO
+CFTV-007,CFTV,OptiVia Sistemas,OV-PTZ300,47.6,Poste (acostamento),2021-09-14,8,B,SIMULADO
+CFTV-008,CFTV,OptiVia Sistemas,OV-PTZ300,52.0,Pórtico PT-04,2023-01-30,8,B,SIMULADO
+CFTV-009,CFTV,OptiVia Sistemas,OV-PTZ300,66.4,Poste (acostamento),2022-04-18,8,C,SIMULADO
+CFTV-010,CFTV,OptiVia Sistemas,OV-PTZ300,78.1,Praça P2,2023-05-22,8,A,SIMULADO
+CFTV-011,CFTV,Horizonte Eletrônica,HZ-PTZ200,78.4,Praça P2,2019-10-03,8,A,SIMULADO
+CFTV-012,CFTV,OptiVia Sistemas,OV-PTZ300,104.2,Poste (acostamento),2022-12-09,8,C,SIMULADO
+PMV-001,PMV,Lumen Sinalização,LS-PMV2M,5.0,Pórtico PT-01,2015-07-01,12,B,SIMULADO
+PMV-002,PMV,Lumen Sinalização,LS-PMV3C,18.7,Pórtico PT-02,2020-03-10,12,A,SIMULADO
+PMV-003,PMV,Lumen Sinalização,LS-PMV3C,33.5,Pórtico PT-03,2019-12-02,12,A,SIMULADO
+PMV-004,PMV,Lumen Sinalização,LS-PMV2M,52.0,Pórtico PT-04,2016-09-19,12,C,SIMULADO
+PMV-005,PMV,Lumen Sinalização,LS-PMV3C,70.2,Pórtico PT-05,2021-06-07,12,B,SIMULADO
+PMV-006,PMV,Lumen Sinalização,LS-PMV3C,88.9,Pórtico PT-06,2018-04-25,12,A,SIMULADO
+PMV-007,PMV,Lumen Sinalização,LS-PMV2M,101.5,Pórtico PT-07,2017-11-13,12,B,SIMULADO
+PMV-008,PMV,Lumen Sinalização,LS-PMV3C,115.0,Pórtico PT-08,2022-02-28,12,B,SIMULADO
+CBX-001,CALLBOX,VozVia Telecom,VV-SOS100,8.0,Acostamento sentido Norte,2017-03-08,10,B,SIMULADO
+CBX-002,CALLBOX,VozVia Telecom,VV-SOS200,20.0,Acostamento sentido Sul,2020-05-14,10,B,SIMULADO
+CBX-003,CALLBOX,VozVia Telecom,VV-SOS200,32.0,Acostamento sentido Norte,2020-05-14,10,B,SIMULADO
+CBX-004,CALLBOX,VozVia Telecom,VV-SOS200,44.0,Acostamento sentido Sul,2019-08-21,10,A,SIMULADO
+CBX-005,CALLBOX,VozVia Telecom,VV-SOS200,56.0,Acostamento sentido Norte,2021-02-03,10,B,SIMULADO
+CBX-006,CALLBOX,VozVia Telecom,VV-SOS100,68.0,Acostamento sentido Sul,2016-10-27,10,C,SIMULADO
+CBX-007,CALLBOX,VozVia Telecom,VV-SOS200,80.0,Acostamento sentido Norte,2021-02-03,10,B,SIMULADO
+CBX-008,CALLBOX,VozVia Telecom,VV-SOS200,92.0,Acostamento sentido Sul,2019-08-21,10,A,SIMULADO
+CBX-009,CALLBOX,VozVia Telecom,VV-SOS200,104.0,Acostamento sentido Norte,2022-07-11,10,B,SIMULADO
+CBX-010,CALLBOX,VozVia Telecom,VV-SOS100,116.0,Acostamento sentido Sul,2018-01-15,10,C,SIMULADO
